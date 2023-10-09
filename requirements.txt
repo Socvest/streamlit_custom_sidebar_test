@@ -1,5 +1,5 @@
 streamlit-custom-sidebar==0.0.11
-streamlit-float
+streamlit-float==0.3.2
 streamlit-extras
 streamlit-local-storage
 streamlit-browser-session-storage
