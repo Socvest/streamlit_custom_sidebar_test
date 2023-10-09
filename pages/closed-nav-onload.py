@@ -5,7 +5,7 @@ import streamlit_float # recommended
 st.set_page_config(layout="wide", page_title="closed-nav-onload")
 
 
-streamlit_float.float_init()
+streamlit_float.float_init(primary=False)
 
 data_ = [
             {"index":0, "label":"Home Page", "page":"home-page", "href":"https://custom-sidebar.streamlit.app/"},
