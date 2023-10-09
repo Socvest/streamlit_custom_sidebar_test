@@ -1,4 +1,5 @@
 streamlit-custom-sidebar
 streamlit-float
+streamlit-extras
 streamlit-local-storage
 streamlit-browser-session-storage
