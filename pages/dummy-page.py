@@ -24,3 +24,6 @@ with st.container():
     defaultSidebar.change_page()
     
     streamlit_float.float_parent(css="top:-1000px;")
+
+
+st.subheader("This is the Dummy Page")
