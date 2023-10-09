@@ -24,19 +24,7 @@ with st.container():
     defaultSidebar.load_custom_sidebar()
     defaultSidebar.change_page()
     
-    # streamlit_float.float_parent(css="position:fixed; top:-1000px;")
+    streamlit_float.float_parent(css="position:fixed; top:-1000px;")
 
 
 st.subheader("This is the Home Page")
-
-js_el = '''
-            <script>
-                        pageName_ = window.parent.document.location.href.split("/")[3]
-                      
-
-                        pageName_1 = window.parent.document.location.pathname.split("/")
-                        console.log(pageName_1[pageName_1.length - 1])
-            </script>
-
-'''
-st.components.v1.html(js_el, height=0, width=0)
