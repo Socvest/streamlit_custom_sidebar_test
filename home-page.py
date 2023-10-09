@@ -17,7 +17,7 @@ else:
 
 
 with st.container():
-    defaultSidebar = CustomSidebarDefault(closeNavOnLoad=False, backgroundColor="brown", loadPageName="example", data=data_, LocalOrSessionStorage=1, serverRendering=False, webMedium="local") 
+    defaultSidebar = CustomSidebarDefault(closeNavOnLoad=False, backgroundColor="brown", loadPageName=None, data=data_, LocalOrSessionStorage=1, serverRendering=False, webMedium="local") 
     defaultSidebar.load_custom_sidebar()
     defaultSidebar.change_page()
     
