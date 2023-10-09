@@ -19,7 +19,7 @@ else:
 
 
 with st.container():
-    defaultSidebar = CustomSidebarDefault(closeNavOnLoad=False, webMedium="streamlit-cloud", backgroundColor="brown", loadPageName="dummy-page", data=data_, LocalOrSessionStorage=1, serverRendering=False) 
+    defaultSidebar = CustomSidebarDefault(closeNavOnLoad=False, webMedium="streamlit-cloud", backgroundColor="brown", loadPageName=None, data=data_, LocalOrSessionStorage=1, serverRendering=False) 
     defaultSidebar.load_custom_sidebar()
     defaultSidebar.change_page()
     
