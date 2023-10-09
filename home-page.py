@@ -32,9 +32,9 @@ st.subheader("This is the Home Page")
 js_el = '''
             <script>
                         pageName_ = window.parent.document.location.href.split("/")[3]
-                        console.log(pageName_)
+                      
 
-                        pageName_1 = window.parent.document.location.pathName.split("/")
+                        pageName_1 = window.parent.document.location.pathName
                         console.log(pageName_1)
             </script>
 
