@@ -27,4 +27,4 @@ with st.container():
     streamlit_float.float_parent(css="top:-1000px;")
 
 
-st.subheader("This is the Dummy Page")
+st.subheader("This is the Sidebar closed on first load. Refresh the page to see")
