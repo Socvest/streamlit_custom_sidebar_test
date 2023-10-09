@@ -6,7 +6,7 @@ import streamlit_float # recommended
 st.set_page_config(layout="wide", page_title="closed-nav-onload")
 
 
-streamlit_float.float_init(include_unstable_primary=False)
+streamlit_float.float_init(theme=False, include_unstable_primary=False)
 time.sleep(2)
 
 data_ = [
