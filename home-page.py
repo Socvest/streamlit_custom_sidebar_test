@@ -27,7 +27,7 @@ with st.container():
     streamlit_float.float_parent(css="position:fixed; top:-1000px;")
 
 
-#st.subheader("This is the Home Page")
+st.subheader("This is the Home Page")
 
 
 
