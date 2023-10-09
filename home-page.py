@@ -27,15 +27,7 @@ with st.container():
     streamlit_float.float_parent(css="position:fixed; top:-1000px;")
 
 
-st.subheader("This is the Home Page")
+#st.subheader("This is the Home Page")
 
-js_el = '''
-<script>
-            let iframeScreenComp = window.parent.document.querySelectorAll('iframe[title="st.iframe"]')
-            iframeScreenComp[0].parentNode.style.display = "none";
-</script>
-
-'''
-st.components.v1.html(js_el, height=0, width=0)
 
 
