@@ -7,7 +7,7 @@ st.set_page_config(layout="wide", page_title="dummy-page")
 
 
 streamlit_float.float_init(theme=False, include_unstable_primary=False)
-time.sleep(2)
+#time.sleep(2)
 
 data_ = [
             {"index":0, "label":"Home Page", "page":"home-page", "href":"https://custom-sidebar.streamlit.app/"},
