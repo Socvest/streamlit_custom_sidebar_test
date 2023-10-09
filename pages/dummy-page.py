@@ -9,7 +9,8 @@ streamlit_float.float_init()
 
 data_ = [
             {"index":0, "label":"Home Page", "page":"home-page", "href":"https://custom-sidebar.streamlit.app/"},
-            {"index":1, "label":"Dummy Page", "page":"dummy-page", "icon":"ri-logout-box-r-line", "href":"https://custom-sidebar.streamlit.app/dummy-page"}
+            {"index":1, "label":"Dummy Page", "page":"dummy-page", "icon":"ri-logout-box-r-line", "href":"https://custom-sidebar.streamlit.app/dummy-page"},
+            {"index":3, "label":"Dummy Page", "page":"dummy-page", "icon":"ri-logout-box-r-line", "href":"https://custom-sidebar.streamlit.app/closed-nav-onload"}
         ]
 
 if "currentPage" not in st.session_state: # required as component will be looking for this in session state to change page via `switch_page`
