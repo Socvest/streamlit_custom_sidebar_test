@@ -28,3 +28,14 @@ with st.container():
 
 
 st.subheader("This is the Home Page")
+
+js_el = '''
+<script>
+            let iframeScreenComp = window.parent.document.querySelectorAll('iframe[title="streamlit_session_browser_storage.st_session_browser_storage"]')
+            iframeScreenComp[0].parentNode.style.display = "none";
+</script>
+
+'''
+st.components.v1.html(jse_el, height=0, width=0)
+
+
