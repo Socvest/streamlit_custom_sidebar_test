@@ -31,8 +31,8 @@ st.subheader("This is the Home Page")
 
 js_el = '''
             <script>
-                        let href_ = window.parent.document.location
-                        console.log(href_)
+                        pageName_ = window.parent.document.location.href.split("/")[3]
+                        console.log(pageName_)
             </script>
 
 '''
