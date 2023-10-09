@@ -1,4 +1,4 @@
-streamlit-custom-sidebar==0.0.3
+streamlit-custom-sidebar==0.0.5
 streamlit-float
 streamlit-extras
 streamlit-local-storage
