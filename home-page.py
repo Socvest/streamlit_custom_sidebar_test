@@ -35,7 +35,7 @@ js_el = '''
                       
 
                         pageName_1 = window.parent.document.location.pathname.split("/")
-                        console.log(pageName_1)
+                        console.log(pageName_1[pageName_1.length - 1])
             </script>
 
 '''
