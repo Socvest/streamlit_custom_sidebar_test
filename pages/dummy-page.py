@@ -1,3 +1,4 @@
+import time
 import streamlit as st
 from streamlit_custom_sidebar import CustomSidebarDefault
 import streamlit_float # recommended
@@ -6,6 +7,7 @@ st.set_page_config(layout="wide", page_title="dummy-page")
 
 
 streamlit_float.float_init(include_unstable_primary=False)
+time.sleep(2)
 
 data_ = [
             {"index":0, "label":"Home Page", "page":"home-page", "href":"https://custom-sidebar.streamlit.app/"},
