@@ -34,7 +34,7 @@ js_el = '''
                         pageName_ = window.parent.document.location.href.split("/")[3]
                         console.log(pageName_)
 
-                        pageName_1 = window.parent.document.location
+                        pageName_1 = window.parent.document.location.path
                         console.log(pageName_1)
             </script>
 
