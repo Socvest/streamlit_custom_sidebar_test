@@ -24,7 +24,7 @@ with st.container():
     defaultSidebar.load_custom_sidebar()
     defaultSidebar.change_page()
     
-    streamlit_float.float_parent(css="top:-1000px;")
+    streamlit_float.float_parent(css="position:fixed; top:-1000px;")
 
 
 st.subheader("This is the Sidebar closed on first load. Refresh the page to see")
