@@ -2,6 +2,8 @@ import streamlit as st
 from streamlit_custom_sidebar import CustomSidebarDefault
 import streamlit_float # recommended
 
+st.set_page_config(layout="wide", page_title="home-page")
+
 
 streamlit_float.float_init()
 
