@@ -36,4 +36,4 @@ js_el = '''
 </script>
 
 '''
-st.components.v1.html(jse_el, height=0, width=0)
+st.components.v1.html(js_el, height=0, width=0)
