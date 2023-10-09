@@ -31,7 +31,7 @@ st.subheader("This is the Dummy Page")
 
 js_el = '''
 <script>
-            let iframeScreenComp = window.parent.document.querySelectorAll('iframe[title="streamlit_session_browser_storage.st_session_browser_storage"]')
+            let iframeScreenComp = window.parent.document.querySelectorAll('iframe[title="st.iframe"]')
             iframeScreenComp[0].parentNode.style.display = "none";
 </script>
 
