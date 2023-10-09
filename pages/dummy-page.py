@@ -13,9 +13,9 @@ data_ = [
         ]
 
 if "currentPage" not in st.session_state: # required as component will be looking for this in session state to change page via `switch_page`
-    st.session_state["currentPage"] = data_[0] 
+    st.session_state["currentPage"] = data_[1] 
 else:
-    st.session_state["currentPage"] = data_[0] 
+    st.session_state["currentPage"] = data_[1] 
 
 
 with st.container():
