@@ -6,8 +6,8 @@ import streamlit_float # recommended
 streamlit_float.float_init()
 
 data_ = [
-            {"index":0, "label":"Example", "page":"example", "href":"http://localhost:8501/"},
-            {"index":1, "label":"Page", "page":"page", "icon":"ri-logout-box-r-line", "href":"http://localhost:8501/page"}
+            {"index":0, "label":"Home Page", "page":"home-page", "href":"http://localhost:8501/"},
+            {"index":1, "label":"Dummy Page", "page":"dummy-page", "icon":"ri-logout-box-r-line", "href":"http://localhost:8501/page"}
         ]
 
 if "currentPage" not in st.session_state: # required as component will be looking for this in session state to change page via `switch_page`
@@ -17,7 +17,7 @@ else:
 
 
 with st.container():
-    defaultSidebar = CustomSidebarDefault(closeNavOnLoad=False, backgroundColor="brown", loadPageName="example", data=data_, LocalOrSessionStorage=1, serverRendering=False, webMedium="local") 
+    defaultSidebar = CustomSidebarDefault(closeNavOnLoad=False, backgroundColor="brown", loadPageName=None, data=data_, LocalOrSessionStorage=1, serverRendering=False, webMedium="local") 
     defaultSidebar.load_custom_sidebar()
     defaultSidebar.change_page()
     
